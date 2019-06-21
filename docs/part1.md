@@ -14,4 +14,16 @@
     Associativity is pretty obvious when dealing with functions but it may not be obvious in other categories.
   * For every object A there is an arrow which is a unit of composition. This arrow loops from the object to itself.
 
-  
+
+- A functor is a mapping between categories. . Given two categories, C and D, a functor F maps objects in C to objects in D - it is a function on objects.
+
+- So if a morphism f in C connect object a to object b,
+```console
+f:: a => b
+```
+the image of f in D, Ff, will connect the image of a to the image of b:
+```console
+Ff:: Fa => Fb
+```
+
+- Note that functors must preserve the structure of a category.
